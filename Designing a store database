@@ -1,0 +1,21 @@
+CREATE TABLE yvesmart (id INTEGER PRIMARY KEY, name TEXT, price INTEGER);
+
+INSERT INTO yvesmart VALUES (1, "bike", 200);
+INSERT INTO yvesmart VALUES (2, "jeans", 49);
+INSERT INTO yvesmart VALUES (3, "chocolate", 2);
+INSERT INTO yvesmart VALUES (4, "soccer ball", 12);
+INSERT INTO yvesmart VALUES (5, "wallpaper", 49);
+INSERT INTO yvesmart VALUES (6, "candles", 15);
+INSERT INTO yvesmart VALUES (7, "bed sheets", 26);
+INSERT INTO yvesmart VALUES (8, "utensils", 5);
+INSERT INTO yvesmart VALUES (9, "tv", 399);
+INSERT INTO yvesmart VALUES (10, "watches", 25);
+INSERT INTO yvesmart VALUES (11, "toys", 2);
+INSERT INTO yvesmart VALUES (12, "books", 17);
+INSERT INTO yvesmart VALUES (13, "ps5", 499);
+INSERT INTO yvesmart VALUES (14, "xbox", 499);
+INSERT INTO yvesmart VALUES (15, "plants", 5);
+
+SELECT *FROM yvesmart ORDER BY price;
+
+SELECT SUM(price) FROM yvesmart;
